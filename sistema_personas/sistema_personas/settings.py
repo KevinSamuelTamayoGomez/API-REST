@@ -22,7 +22,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-*v4!9khyum3h0!u6yy2fp
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
 ALLOWED_HOSTS = [
-    'api-rest-hackathon.onrender.com',
+    'api-rest-z3z4.onrender.com',
     '127.0.0.1',
     'localhost'
 ]
