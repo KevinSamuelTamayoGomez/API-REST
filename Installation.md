@@ -26,5 +26,4 @@
 9. Go to the explorer and navigate to `http://127.0.0.1:8000/`
 10. Ready to go!
 
-
 # Docker is on the line soon!
