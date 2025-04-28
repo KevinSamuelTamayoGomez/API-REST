@@ -1,0 +1,31 @@
+# --- ARCHIVOS DE DJANGO ---
+*.pyc
+__pycache__/
+db.sqlite3
+/media/
+*.log
+
+# --- CONFIGURACIÓN DE VISUAL STUDIO CODE ---
+.vscode/
+
+# --- ARCHIVOS DE MIGRACIONES (OPCIONAL, si quieres ignorarlos también) ---
+# **Si quieres ignorar todas las migraciones descomenta las siguientes dos líneas:**
+# */migrations/
+# !*/migrations/__init__.py
+
+# --- ARCHIVOS ESTÁTICOS COMPILADOS ---
+/staticfiles/
+
+# --- ARCHIVOS DEL ENTORNO VIRTUAL (Si usas uno) ---
+env/
+venv/
+ENV/
+.venv/
+
+# --- ARCHIVOS DEL SISTEMA ---
+.DS_Store
+Thumbs.db
+
+# --- CONFIGURACIÓN DE DOCKER ---
+*.env
+*.yaml
